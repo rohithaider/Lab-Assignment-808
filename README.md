@@ -136,6 +136,23 @@ Then, I checked the IP address of the Metaspolitable 2 vm using ```ifconfig```
 
 ## Scanning with Nessus
 
+### 🔓 Unauthenticated Scan
+* I went to Nessus dashboard → New Scan → Basic Network Scan
+
+* Target = IP of Metasploitable
+
+* Named it "Unauthenticated Scan"
+
+* Ran the scan and exported results as PDF
+
+* Noted the Top 20 vulnerabilities
+
+![image](https://github.com/user-attachments/assets/0f08d480-08fe-4be7-a379-fd049df08ca8)
+
+Here are the top 20 vulnerabilities:
+
+![image](https://github.com/user-attachments/assets/f93b3673-56d4-427a-8216-ce1d93e3f3e0)
+![image](https://github.com/user-attachments/assets/543bee7b-ac45-4009-b207-010b914ec99b)
 
 
 
