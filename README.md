@@ -43,6 +43,10 @@ This produced the file decrypted_70012.txt, containing the original content.
 ![image](https://github.com/user-attachments/assets/e5c04629-9a38-439e-bb43-02d40a8e8a87)
 
 
+---
+---
+
+
 # 🔐 Write-up Task-2: RSA Key Pair Generation and File Encryption/Decryption Using OpenSSL
 
 In this part of the assignment, I performed asymmetric encryption using RSA public-private key pairs.
