@@ -166,6 +166,14 @@ Here are the top 20 vulnerabilites from authenticated scan:
 
 ![image](https://github.com/user-attachments/assets/7c26fe59-d342-45fc-830a-4ae27b8986fa)
 
+## Here are the live links for unauthenticated and authenticated scans:
+
+## 🌐 Live Demo Links
+
+- [Unauthenticated Scan](https://fancy-bublanina-b70dad.netlify.app/)
+- [Authenticated Scan](https://68591e9e70bccbb184a00292--sparkly-gumdrop-5e2809.netlify.app/)
+
+
 
 ---
 ---
