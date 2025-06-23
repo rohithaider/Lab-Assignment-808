@@ -99,7 +99,7 @@ I opened both the encrypted and decrypted files using a text editor (nano) to in
 ---
 ---
 
-# 🔍 Task 2: Vulnerability Assessment
+# 🔍 Write-up Task-2: Vulnerability Assessment
 
 First, I went to this website ```https://www.tenable.com/downloads/nessus``` and downloaded ```Nessus```.
 
