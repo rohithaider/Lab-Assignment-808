@@ -43,3 +43,55 @@ This produced the file decrypted_70012.txt, containing the original content.
 ![image](https://github.com/user-attachments/assets/e5c04629-9a38-439e-bb43-02d40a8e8a87)
 
 
+# 🔐 Write-up Task-2: RSA Key Pair Generation and File Encryption/Decryption Using OpenSSL
+
+In this part of the assignment, I performed asymmetric encryption using RSA public-private key pairs.
+
+
+## 🔑 Step 1: Generating the Private Key
+I created a 2048-bit RSA private key using the command:
+
+```bash
+openssl genpkey -algorithm RSA -out private_70012.pem -pkeyopt rsa_keygen_bits:2048
+```
+![image](https://github.com/user-attachments/assets/4dfb5bca-b688-40cd-8b3e-4a72c77ff5ea)
+
+## 📤 Step 2: Generating the Public Key
+After the private key was created, I extracted the corresponding public key by running:
+
+```bash
+openssl rsa -pubout -in private_70012.pem -out public_70012.pem
+```
+![image](https://github.com/user-attachments/assets/bc409bb2-7a3b-4873-a700-1daeb2c62273)
+
+## 🔐 Step 3: Encrypting the File Using the Public Key
+With both keys ready, I encrypted 70012.txt using the public key:
+
+```bash
+openssl pkeyutl -encrypt -pubin -inkey public_70012.pem -in 70012.txt -out encrypted_rsa_70012.txt
+```
+I verified that the encrypted file encrypted_rsa_70012.txt was successfully created by listing the files in my directory.
+
+![image](https://github.com/user-attachments/assets/a62103ef-98e7-4183-bd4e-01543a11a729)
+
+## 🔓 Step 4: Decrypting the File Using the Private Key
+To ensure the encryption worked, I decrypted the file with the private key:
+
+```bash
+openssl pkeyutl -decrypt -inkey private_70012.pem -in encrypted_rsa_70012.txt -out decrypted_rsa_70012.txt
+```
+After decryption, I confirmed the file decrypted_rsa_70012.txt existed and matched the original content.
+
+![image](https://github.com/user-attachments/assets/fb374c94-3196-4817-8d28-c009e6b32345)
+
+## 🧾 Final Step: Verifying Content
+I opened both the encrypted and decrypted files using a text editor (nano) to inspect their contents and ensure everything worked as expected.
+
+![image](https://github.com/user-attachments/assets/5a09524e-a018-4874-a841-5ebdd334a504)
+
+![image](https://github.com/user-attachments/assets/bf69737e-badf-49df-9b5e-fdb9a4432f3f)
+
+
+
+
+
