@@ -125,6 +125,12 @@ After that, I visited https://localhost:8834 to set up Nessus in the browser and
 ![image](https://github.com/user-attachments/assets/78ce1e24-59c8-4262-a97e-d8a3b0549585)
 
 
+After setting up ```Nessus```, I downloaded ```Metasploitable 2``` from the provided link and logged into the VM using the supplied credentials.
+
+![image](https://github.com/user-attachments/assets/2ed9225e-5e72-4cfa-9525-2958d5657e8b)
+
+
+
 
 
 
