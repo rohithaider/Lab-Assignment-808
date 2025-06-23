@@ -101,7 +101,7 @@ I opened both the encrypted and decrypted files using a text editor (nano) to in
 
 # 🔍 Task 2: Vulnerability Assessment
 
-First I went to this website ```https://www.tenable.com/downloads/nessus``` and downloaded ```Nessus```.
+First, I went to this website ```https://www.tenable.com/downloads/nessus``` and downloaded ```Nessus```.
 
 
 ![image](https://github.com/user-attachments/assets/0fdc41eb-64ef-4ea1-be60-11950e6d2f40)
@@ -126,8 +126,15 @@ After that, I visited https://localhost:8834 to set up Nessus in the browser and
 
 
 After setting up ```Nessus```, I downloaded ```Metasploitable 2``` from the provided link and logged into the VM using the supplied credentials.
+For this VM, I created a HOST-ONLY-ADAPTER and assigned the adapter to the VM.
 
 ![image](https://github.com/user-attachments/assets/2ed9225e-5e72-4cfa-9525-2958d5657e8b)
+
+Then, I checked the IP address of the Metaspolitable 2 vm using ```ifconfig```
+
+![image](https://github.com/user-attachments/assets/a21cc2f5-816d-4e9f-a2e0-c5650c3a6329)
+
+## Scanning with Nessus
 
 
 
