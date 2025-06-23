@@ -95,6 +95,26 @@ I opened both the encrypted and decrypted files using a text editor (nano) to in
 
 ![image](https://github.com/user-attachments/assets/bf69737e-badf-49df-9b5e-fdb9a4432f3f)
 
+---
+---
+---
+
+# 🔍 Task 2: Vulnerability Assessment
+
+First I went to this website ```https://www.tenable.com/downloads/nessus``` and downloaded ```Nessus```.
+
+
+![image](https://github.com/user-attachments/assets/0fdc41eb-64ef-4ea1-be60-11950e6d2f40)
+
+Then I installed the ```Nessus``` using this command:
+```bash
+sudo dpkg -i Nessus-*.deb
+sudo systemctl start nessusd.service
+```
+
+![image](https://github.com/user-attachments/assets/96d0cb85-88ee-4e54-a7e8-8e85a6e9c93a)
+
+
 
 
 
