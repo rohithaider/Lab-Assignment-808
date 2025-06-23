@@ -1,4 +1,4 @@
-# 🔐 Write-up Task-1: File Encryption and Decryption Using Symmetric AES-256 with PBKDF2
+# 🔐 Write-up Task-1 Part-1: File Encryption and Decryption Using Symmetric AES-256 with PBKDF2
 
 For this assignment, I performed symmetric encryption and decryption on a text file using the **AES-256 algorithm** with secure key derivation (`-pbkdf2`).
 
@@ -47,7 +47,7 @@ This produced the file decrypted_70012.txt, containing the original content.
 ---
 
 
-# 🔐 Write-up Task-2: RSA Key Pair Generation and File Encryption/Decryption Using OpenSSL
+# 🔐 Write-up Task-1 Part-2: RSA Key Pair Generation and File Encryption/Decryption Using OpenSSL
 
 In this part of the assignment, I performed asymmetric encryption using RSA public-private key pairs.
 
