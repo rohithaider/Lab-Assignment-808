@@ -114,6 +114,16 @@ sudo systemctl start nessusd.service
 
 ![image](https://github.com/user-attachments/assets/96d0cb85-88ee-4e54-a7e8-8e85a6e9c93a)
 
+After that, I visited https://localhost:8834 to set up Nessus in the browser and created an account, and selected Nessus Essentials.
+
+![image](https://github.com/user-attachments/assets/b48d1fac-d968-4587-8e20-8604453699e7)
+
+![image](https://github.com/user-attachments/assets/d11cd1ab-33eb-4941-b319-85a3a112a8cb)
+
+![image](https://github.com/user-attachments/assets/54cd222b-39a0-4927-a8a1-440f5d00664a)
+
+![image](https://github.com/user-attachments/assets/78ce1e24-59c8-4262-a97e-d8a3b0549585)
+
 
 
 
