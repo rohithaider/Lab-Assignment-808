@@ -160,6 +160,8 @@ For an authenticated scan, I selected advanced scan and provided the credentials
 
 ![image](https://github.com/user-attachments/assets/677442bf-8851-49d4-b938-7691f488cb89)
 
+![image](https://github.com/user-attachments/assets/6f2e94b8-408c-49f5-a275-1c8a52edffcf)
+
 
 
 
