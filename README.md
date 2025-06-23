@@ -169,6 +169,10 @@ Here are the top 20 vulnerabilites from authenticated scan:
 ![image](https://github.com/user-attachments/assets/7c26fe59-d342-45fc-830a-4ae27b8986fa)
 
 
+---
+---
+---
+THANK YOU!
 
 
 
