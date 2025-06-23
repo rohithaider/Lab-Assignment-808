@@ -162,6 +162,14 @@ For an authenticated scan, I selected advanced scan and provided the credentials
 
 ![image](https://github.com/user-attachments/assets/6f2e94b8-408c-49f5-a275-1c8a52edffcf)
 
+Here are the top 20 vulnerabilites from authenticated scan:
+
+![image](https://github.com/user-attachments/assets/17a72cc5-9d24-4b9e-8286-c27e0ae4a191)
+
+![image](https://github.com/user-attachments/assets/7c26fe59-d342-45fc-830a-4ae27b8986fa)
+
+
+
 
 
 
