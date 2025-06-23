@@ -154,6 +154,13 @@ Here are the top 20 vulnerabilities:
 ![image](https://github.com/user-attachments/assets/f93b3673-56d4-427a-8216-ce1d93e3f3e0)
 ![image](https://github.com/user-attachments/assets/543bee7b-ac45-4009-b207-010b914ec99b)
 
+### 🔐 Authenticated Scan
+
+For an authenticated scan, I selected advanced scan and provided the credentials.
+
+![image](https://github.com/user-attachments/assets/677442bf-8851-49d4-b938-7691f488cb89)
+
+
 
 
 
